@@ -1,5 +1,5 @@
-ErrorDocument 400 http://stphilipnerischool.gt.tc/error.php
-ErrorDocument 401 http://stphilipnerischool.gt.tc/error.php
-ErrorDocument 403 http://stphilipnerischool.gt.tc/error.php
-ErrorDocument 404 http://stphilipnerischool.gt.tc/error.php
-ErrorDocument 503 http://stphilipnerischool.gt.tc/error.php
+ErrorDocument 400 http://../error
+ErrorDocument 401 http://../error
+ErrorDocument 403 http://../error
+ErrorDocument 404 http://../error
+ErrorDocument 503 http://../error
