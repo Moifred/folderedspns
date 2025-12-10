@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://spns.sc.ke/spns-sc-ke-sitemap.xml
