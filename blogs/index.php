@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once 'config.php';
+require_once '../includes/config.php';
 
 // Pagination settings
 $posts_per_page = 9;

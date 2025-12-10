@@ -177,9 +177,9 @@ $active_pages = getActivePages();
                     <div style="display: flex; gap: 30px; flex-wrap: wrap;">
                         <?php
                         $footerLinks = [
-                            ['shield-alt', 'privacy-policy', 'Privacy Policy'],
-                            ['file-contract', 'terms', 'Terms of Service'],
-                            ['sitemap', 'admin/sitemap', 'Sitemap']
+                            ['shield-alt', '../privacy-policy', 'Privacy Policy'],
+                            ['file-contract', '../terms', 'Terms of Service'],
+                            ['sitemap', '../admin/sitemap', 'Sitemap']
                         ];
 
                         foreach ($footerLinks as $link): ?>

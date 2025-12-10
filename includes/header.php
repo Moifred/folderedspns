@@ -885,7 +885,7 @@ $is_homepage = basename($_SERVER['PHP_SELF']) == 'index.php';
         <nav class="navbar desktop-only">
             <div class="container">
                 <ul class="nav-menu" id="navMenu">
-                    <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="/index.php" class="nav-link">Home</a></li>
 
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link">
@@ -894,14 +894,14 @@ $is_homepage = basename($_SERVER['PHP_SELF']) == 'index.php';
                         </a>
                         <ul class="dropdown-menu">
                             <li class="dropdown">
-                                <a href="about-us" class="dropdown-link">
+                                <a href="../about-us" class="dropdown-link">
                                     Our Story
                                     <i class="fas fa-chevron-right dropdown-arrow"></i>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="welcome" class="dropdown-link">Welcome Message</a></li>
-                                    <li><a href="mission-vision" class="dropdown-link">Mission & Vision</a></li>
-                                    <li><a href="our-aim" class="dropdown-link">Our Aim</a></li>
+                                    <li><a href="../welcome" class="dropdown-link">Welcome Message</a></li>
+                                    <li><a href="../mission-vision" class="dropdown-link">Mission & Vision</a></li>
+                                    <li><a href="../our-aim" class="dropdown-link">Our Aim</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
@@ -910,9 +910,9 @@ $is_homepage = basename($_SERVER['PHP_SELF']) == 'index.php';
                                     <i class="fas fa-chevron-right dropdown-arrow"></i>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="board" class="dropdown-link">Board of Directors</a></li>
-                                    <li><a href="management" class="dropdown-link">Management</a></li>
-                                    <li><a href="leaders" class="dropdown-link">Leaders</a></li>
+                                    <li><a href="../board" class="dropdown-link">Board of Directors</a></li>
+                                    <li><a href="../management" class="dropdown-link">Management</a></li>
+                                    <li><a href="../leaders" class="dropdown-link">Leaders</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -924,8 +924,8 @@ $is_homepage = basename($_SERVER['PHP_SELF']) == 'index.php';
                             <i class="fas fa-chevron-down dropdown-arrow"></i>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="sections" class="dropdown-link">Classes/Sections</a></li>
-                            <li><a href="co-curricular" class="dropdown-link">Co - Curricular</a></li>
+                            <li><a href="../sections" class="dropdown-link">Classes/Sections</a></li>
+                            <li><a href="../co-curricular" class="dropdown-link">Co - Curricular</a></li>
                         </ul>
                     </li>
 
@@ -935,12 +935,12 @@ $is_homepage = basename($_SERVER['PHP_SELF']) == 'index.php';
                             <i class="fas fa-chevron-down dropdown-arrow"></i>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="gallery" class="dropdown-link">Gallery</a></li>
-                            <li><a href="boarding" class="dropdown-link">Boarding</a></li>
-                            <li><a href="transport" class="dropdown-link">Transport</a></li>
-                            <li><a href="sports-complex" class="dropdown-link">Sports Complex</a></li>
-                            <li><a href="science-complex" class="dropdown-link">Science Complex</a></li>
-                            <li><a href="arts-complex" class="dropdown-link">Arts Complex</a></li>
+                            <li><a href="../gallery" class="dropdown-link">Gallery</a></li>
+                            <li><a href="../boarding" class="dropdown-link">Boarding</a></li>
+                            <li><a href="../transport" class="dropdown-link">Transport</a></li>
+                            <li><a href="../sports-complex" class="dropdown-link">Sports Complex</a></li>
+                            <li><a href="../science-complex" class="dropdown-link">Science Complex</a></li>
+                            <li><a href="../arts-complex" class="dropdown-link">Arts Complex</a></li>
                         </ul>
                     </li>
 
@@ -950,21 +950,21 @@ $is_homepage = basename($_SERVER['PHP_SELF']) == 'index.php';
                             <i class="fas fa-chevron-down dropdown-arrow"></i>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="enquiry" class="dropdown-link">Make Enquiry</a></li>
+                            <li><a href="../enquiry" class="dropdown-link">Make Enquiry</a></li>
                             <li><a href="#" class="dropdown-link">Make Application</a></li>
                         </ul>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a href="resources" class="nav-link">
+                        <a href="../resources" class="nav-link">
                             Resources
                             <i class="fas fa-chevron-down dropdown-arrow"></i>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="resources" class="dropdown-link">Fee Structure</a></li>
-                            <li><a href="resources" class="dropdown-link">Newsletter</a></li>
-                            <li><a href="resources" class="dropdown-link">Magazine</a></li>
-                            <li><a href="faqs" class="dropdown-link">FAQs</a></li>
+                            <li><a href="../resources" class="dropdown-link">Fee Structure</a></li>
+                            <li><a href="../resources" class="dropdown-link">Newsletter</a></li>
+                            <li><a href="../resources" class="dropdown-link">Magazine</a></li>
+                            <li><a href="../faqs" class="dropdown-link">FAQs</a></li>
                         </ul>
                     </li>
 
@@ -974,13 +974,13 @@ $is_homepage = basename($_SERVER['PHP_SELF']) == 'index.php';
                             <i class="fas fa-chevron-down dropdown-arrow"></i>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="blogs" class="dropdown-link">Blogs</a></li>
-                            <li><a href="events" class="dropdown-link">Events</a></li>
+                            <li><a href="../blogs" class="dropdown-link">Blogs</a></li>
+                            <li><a href="../events" class="dropdown-link">Events</a></li>
                         </ul>
                     </li>
 
-                    <li class="nav-item"><a href="contact" class="nav-link">Contact Us</a></li>
-                    <li class="nav-item"><a href="admin" class="nav-link">Login</a></li>
+                    <li class="nav-item"><a href="../contact" class="nav-link">Contact Us</a></li>
+                    <li class="nav-item"><a href="../admin" class="nav-link">Login</a></li>
                 </ul>
             </div>
         </nav>
@@ -992,7 +992,7 @@ $is_homepage = basename($_SERVER['PHP_SELF']) == 'index.php';
     <!-- Mobile Navigation Menu -->
     <div class="mobile-nav-menu" id="mobileNavMenu">
         <div class="mobile-menu-header">
-            <img src="images/logo.jpg" alt="St. Philip Neri School Logo" class="mobile-menu-logo" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiBmaWxsPSIjMTZhMzRhIi8+Cjx0ZXh0IHg9IjMwIiB5PSIzNSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+U1BOUzwvdGV4dD4KPC9zdmc+'">
+            <img src="../images/logo.jpg" alt="St. Philip Neri School Logo" class="mobile-menu-logo" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiBmaWxsPSIjMTZhMzRhIi8+Cjx0ZXh0IHg9IjMwIiB5PSIzNSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+U1BOUzwvdGV4dD4KPC9zdmc+'">
             <div class="mobile-school-info">
                 <h3>St. Philip Neri School</h3>
                 <div class="motto">Together we Achieve the extraordinary</div>
@@ -1015,14 +1015,14 @@ $is_homepage = basename($_SERVER['PHP_SELF']) == 'index.php';
                 </a>
                 <ul class="mobile-dropdown-menu">
                     <li class="mobile-dropdown-item">
-                        <a href="about-us" class="mobile-dropdown-link">
+                        <a href="../about-us" class="mobile-dropdown-link">
                             Our Story
                             <i class="fas fa-chevron-right mobile-dropdown-arrow"></i>
                         </a>
                         <ul class="mobile-nested-dropdown-menu">
-                            <li><a href="welcome" class="mobile-nested-dropdown-link">Welcome Message</a></li>
-                            <li><a href="mission-vision" class="mobile-nested-dropdown-link">Mission & Vision</a></li>
-                            <li><a href="our-aim" class="mobile-nested-dropdown-link">Our Aim</a></li>
+                            <li><a href="../welcome" class="mobile-nested-dropdown-link">Welcome Message</a></li>
+                            <li><a href="../mission-vision" class="mobile-nested-dropdown-link">Mission & Vision</a></li>
+                            <li><a href="../our-aim" class="mobile-nested-dropdown-link">Our Aim</a></li>
                         </ul>
                     </li>
                     <li class="mobile-dropdown-item">
@@ -1031,9 +1031,9 @@ $is_homepage = basename($_SERVER['PHP_SELF']) == 'index.php';
                             <i class="fas fa-chevron-right mobile-dropdown-arrow"></i>
                         </a>
                         <ul class="mobile-nested-dropdown-menu">
-                            <li><a href="board" class="mobile-nested-dropdown-link">Board of Directors</a></li>
-                            <li><a href="management" class="mobile-nested-dropdown-link">Management</a></li>
-                            <li><a href="leaders" class="mobile-nested-dropdown-link">Leaders</a></li>
+                            <li><a href="../board" class="mobile-nested-dropdown-link">Board of Directors</a></li>
+                            <li><a href="../management" class="mobile-nested-dropdown-link">Management</a></li>
+                            <li><a href="../leaders" class="mobile-nested-dropdown-link">Leaders</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -1045,8 +1045,8 @@ $is_homepage = basename($_SERVER['PHP_SELF']) == 'index.php';
                     <i class="fas fa-chevron-down mobile-dropdown-arrow"></i>
                 </a>
                 <ul class="mobile-dropdown-menu">
-                    <li><a href="sections" class="mobile-dropdown-link">Classes/Sections</a></li>
-                    <li><a href="co-curricular" class="mobile-dropdown-link">Co - Curricular</a></li>
+                    <li><a href="../sections" class="mobile-dropdown-link">Classes/Sections</a></li>
+                    <li><a href="../co-curricular" class="mobile-dropdown-link">Co - Curricular</a></li>
                 </ul>
             </li>
 
@@ -1056,12 +1056,12 @@ $is_homepage = basename($_SERVER['PHP_SELF']) == 'index.php';
                     <i class="fas fa-chevron-down mobile-dropdown-arrow"></i>
                 </a>
                 <ul class="mobile-dropdown-menu">
-                    <li><a href="gallery" class="mobile-dropdown-link">Gallery</a></li>
-                    <li><a href="boarding" class="mobile-dropdown-link">Boarding</a></li>
-                    <li><a href="transport" class="mobile-dropdown-link">Transport</a></li>
-                    <li><a href="sports-complex" class="mobile-dropdown-link">Sports Complex</a></li>
-                    <li><a href="science-complex" class="mobile-dropdown-link">Science Complex</a></li>
-                    <li><a href="arts-complex" class="mobile-dropdown-link">Arts Complex</a></li>
+                    <li><a href="../gallery" class="mobile-dropdown-link">Gallery</a></li>
+                    <li><a href="../boarding" class="mobile-dropdown-link">Boarding</a></li>
+                    <li><a href="../transport" class="mobile-dropdown-link">Transport</a></li>
+                    <li><a href="../sports-complex" class="mobile-dropdown-link">Sports Complex</a></li>
+                    <li><a href="../science-complex" class="mobile-dropdown-link">Science Complex</a></li>
+                    <li><a href="../arts-complex" class="mobile-dropdown-link">Arts Complex</a></li>
                 </ul>
             </li>
 
@@ -1071,7 +1071,7 @@ $is_homepage = basename($_SERVER['PHP_SELF']) == 'index.php';
                     <i class="fas fa-chevron-down mobile-dropdown-arrow"></i>
                 </a>
                 <ul class="mobile-dropdown-menu">
-                    <li><a href="enquiry" class="mobile-dropdown-link">Make Enquiry</a></li>
+                    <li><a href="../enquiry" class="mobile-dropdown-link">Make Enquiry</a></li>
                     <li><a href="#" class="mobile-dropdown-link">Make Application</a></li>
                 </ul>
             </li>
@@ -1082,10 +1082,10 @@ $is_homepage = basename($_SERVER['PHP_SELF']) == 'index.php';
                     <i class="fas fa-chevron-down mobile-dropdown-arrow"></i>
                 </a>
                 <ul class="mobile-dropdown-menu">
-                    <li><a href="resources" class="mobile-dropdown-link">Fee Structure</a></li>
-                    <li><a href="resources" class="mobile-dropdown-link">Newsletter</a></li>
-                    <li><a href="resources" class="mobile-dropdown-link">Magazine</a></li>
-                    <li><a href="faqs" class="mobile-dropdown-link">FAQs</a></li>
+                    <li><a href="../resources" class="mobile-dropdown-link">Fee Structure</a></li>
+                    <li><a href="../resources" class="mobile-dropdown-link">Newsletter</a></li>
+                    <li><a href="../resources" class="mobile-dropdown-link">Magazine</a></li>
+                    <li><a href="../faqs" class="mobile-dropdown-link">FAQs</a></li>
                 </ul>
             </li>
 
@@ -1095,17 +1095,17 @@ $is_homepage = basename($_SERVER['PHP_SELF']) == 'index.php';
                     <i class="fas fa-chevron-down mobile-dropdown-arrow"></i>
                 </a>
                 <ul class="mobile-dropdown-menu">
-                    <li><a href="blogs" class="mobile-dropdown-link">Blogs</a></li>
-                    <li><a href="events" class="mobile-dropdown-link">Events</a></li>
+                    <li><a href="../blogs" class="mobile-dropdown-link">Blogs</a></li>
+                    <li><a href="../events" class="mobile-dropdown-link">Events</a></li>
                 </ul>
             </li>
 
             <li class="mobile-nav-item">
-                <a href="contact" class="mobile-nav-link">Contact Us</a>
+                <a href="../contact" class="mobile-nav-link">Contact Us</a>
             </li>
 
             <li class="mobile-nav-item">
-                <a href="admin" class="mobile-nav-link">Login</a>
+                <a href="../admin" class="mobile-nav-link">Login</a>
             </li>
         </ul>
 

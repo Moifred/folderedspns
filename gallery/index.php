@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once 'config.php';
+require_once '../includes/config.php';
 
 // Get filter and search parameters
 $category_filter = isset($_GET['category']) ? trim($_GET['category']) : '';

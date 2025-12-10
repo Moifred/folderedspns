@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once 'config.php';
+require_once '../includes/config.php';
 
 $id = isset($_GET['id']) ? intval($_GET['id']) : 0;
 
